@@ -30,3 +30,34 @@ Back-end em Java de teste para a Elotech
 * Implementar o front-end para consumir a API.
 * Desejável que seja em ReactJS ou Angular
 * Publicar a aplicação na internet utilizando algum provedor, para que possa ser acessado sem necessidade de rodar o projeto local
+
+
+#### URL para Postman 
+> http://localhost:8080/teste-elotech
+#### URIs 
+> /pessoas
+
+> /contatos
+
+#### Exemplo de Post Contato
+    {    
+        "nome": "Jefferson",
+        "telefone": "4432633322",
+        "email": "a@a.com.br"
+    }
+
+#### Exemplo de Post Pessoa
+    {
+        "nome": "Teste",
+        "cpf": "53108328077",
+        "dataDeNascimento": "04/02/2000",
+        "contato": [
+            {
+                "id": 3,
+                "nome": "Jefferson",
+                "telefone": "4432633322",
+                "email": "a@a.com.br"
+            }
+        ]
+    }
+    
