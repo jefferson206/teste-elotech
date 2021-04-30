@@ -113,7 +113,8 @@ public class PessoaResourceTest {
         pessoa.setId(1L);
         mockMvc.perform(MockMvcRequestBuilders.delete(API_ENDPOINT + pessoa.getId())
             .accept(MediaType.APPLICATION_JSON))
-            .andExpect(status().isNoContent());
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$.mensagem").value("Pessoa removida com sucesso"));
     }
 
     @SneakyThrows

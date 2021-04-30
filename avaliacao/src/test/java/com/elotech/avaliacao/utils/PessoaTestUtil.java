@@ -9,7 +9,12 @@ import org.springframework.stereotype.Component;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Component
 public class PessoaTestUtil {
@@ -27,7 +32,7 @@ public class PessoaTestUtil {
                 .nome("Elotech")
                 .cpf("13605419003")
                 .dataDeNascimento(dataNascimento)
-                .contato(contato)
+                .contato(Stream.of(contato).collect(Collectors.toSet()))
                 .build();
     }
 

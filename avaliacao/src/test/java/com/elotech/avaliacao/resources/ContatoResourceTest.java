@@ -113,7 +113,8 @@ public class ContatoResourceTest {
         contato.setId(1L);
         mockMvc.perform(MockMvcRequestBuilders.delete(API_ENDPOINT + contato.getId())
             .accept(MediaType.APPLICATION_JSON))
-            .andExpect(status().isNoContent());
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$.mensagem").value("Contato removido com sucesso"));
     }
 
     @SneakyThrows

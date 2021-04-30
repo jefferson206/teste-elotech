@@ -1,0 +1,15 @@
+com/elotech/avaliacao/entities/Contato$ContatoBuilder.class
+com/elotech/avaliacao/TestePraticoApplication.class
+com/elotech/avaliacao/exception/BeanValidator.class
+com/elotech/avaliacao/repositories/PessoaRepository.class
+com/elotech/avaliacao/repositories/ContatoRepository.class
+com/elotech/avaliacao/services/PessoaService.class
+com/elotech/avaliacao/services/ContatoService.class
+com/elotech/avaliacao/resources/ContatoResource.class
+com/elotech/avaliacao/entities/Pessoa$PessoaBuilder.class
+com/elotech/avaliacao/resources/PessoaResource.class
+com/elotech/avaliacao/entities/Contato.class
+com/elotech/avaliacao/exception/ValidacaoDeDadosException.class
+com/elotech/avaliacao/entities/Contato$1.class
+com/elotech/avaliacao/entities/Pessoa.class
+com/elotech/avaliacao/exception/EntidadeEmUso.class

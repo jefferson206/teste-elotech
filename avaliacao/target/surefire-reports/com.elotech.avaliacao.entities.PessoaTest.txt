@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.elotech.avaliacao.entities.PessoaTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.47 s - in com.elotech.avaliacao.entities.PessoaTest

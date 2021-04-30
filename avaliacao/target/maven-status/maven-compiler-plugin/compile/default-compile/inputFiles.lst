@@ -1,0 +1,12 @@
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/services/PessoaService.java
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/resources/ContatoResource.java
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/services/ContatoService.java
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/entities/Pessoa.java
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/repositories/ContatoRepository.java
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/exception/ValidacaoDeDadosException.java
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/exception/EntidadeEmUso.java
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/entities/Contato.java
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/repositories/PessoaRepository.java
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/resources/PessoaResource.java
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/TestePraticoApplication.java
+/home/iaocptinot01/workspace/amanda/teste-elotech/avaliacao/src/main/java/com/elotech/avaliacao/exception/BeanValidator.java

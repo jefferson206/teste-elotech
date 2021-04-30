@@ -8,7 +8,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
-import java.util.Date;
+import java.util.*;
 
 @Data
 @Builder
@@ -36,9 +36,12 @@ public class Pessoa {
     @Past(message = "Data não pode ser maior que a data de hoje")
     private Date dataDeNascimento;
 
-    @ManyToOne
+    @OneToMany(fetch = FetchType.EAGER)
     @NotNull(message = "É necessário selecionar pelo menos um Contato")
-    @JoinColumn(name = "contato_id", nullable = false)
-    private Contato contato;
-
+    @JoinTable(
+            name = "pessoa_contato",
+            joinColumns = @JoinColumn(name = "pessoa_id"),
+            inverseJoinColumns = @JoinColumn(name = "contato_id")
+    )
+    private Set<Contato> contato = new HashSet<>();
 }

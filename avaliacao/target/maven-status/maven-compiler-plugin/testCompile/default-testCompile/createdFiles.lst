@@ -1,0 +1,8 @@
+com/elotech/avaliacao/utils/PessoaTestUtil.class
+com/elotech/avaliacao/entities/ContatoTest.class
+com/elotech/avaliacao/service/ContatoServiceTest.class
+com/elotech/avaliacao/entities/PessoaTest.class
+com/elotech/avaliacao/service/PessoaServiceTest.class
+com/elotech/avaliacao/resources/ContatoResourceTest.class
+com/elotech/avaliacao/resources/PessoaResourceTest.class
+com/elotech/avaliacao/utils/ContatoTestUtil.class
